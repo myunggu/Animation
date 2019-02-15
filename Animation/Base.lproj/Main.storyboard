@@ -98,10 +98,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="343" placeholderIntrinsicHeight="364" image="58_towadako_02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VYD-nE-y0X">
-                                <rect key="frame" x="16" y="80" width="343" height="364"/>
+                                <rect key="frame" x="16" y="80" width="343" height="497"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="330" id="3nH-6U-fJm"/>
-                                    <constraint firstAttribute="height" constant="364" id="A83-nO-eLe"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rz5-60-Ybj">
@@ -121,6 +120,7 @@
                             <constraint firstItem="Rz5-60-Ybj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5sK-ei-oPV"/>
                             <constraint firstItem="Rz5-60-Ybj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IGd-X0-uGk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VYD-nE-y0X" secondAttribute="trailing" constant="16" id="WkJ-8s-6sH"/>
+                            <constraint firstItem="Rz5-60-Ybj" firstAttribute="top" secondItem="VYD-nE-y0X" secondAttribute="bottom" constant="10" id="msd-yC-hkh"/>
                             <constraint firstItem="Rz5-60-Ybj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nb0-q3-a5g"/>
                             <constraint firstItem="VYD-nE-y0X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wvY-zy-zf3"/>
                         </constraints>
